@@ -47,3 +47,9 @@ footer {
     height: 50px;
     background-color: #fff;
 }
+
+.tab-item-sizer {
+    width: 5px;
+    height: 5px;
+    background-color: #fff;
+}
