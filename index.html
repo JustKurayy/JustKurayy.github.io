@@ -15,24 +15,32 @@
 </head>
 
 <body>
-    <div class="container-fluid tab bg-light">
+    <div class="container-fluid tab bg-light ps-2 pt-1 invisible">
         <div class="tab-items d-flex gap-2">
-            <div class="tab-item-sizer">_</div>
-            <div class="tab-item-sizer">[]</div>
-            <div class="tab-item-sizer">X</div>
+            <div class="tab-item-sizer min-item">_</div>
+            <div class="tab-item-sizer max-item">[]</div>
+            <div class="tab-item-sizer close-item">X</div>
+            <p class="tab-info"></p>
+        </div>
+        <br>
+        <div class="container-sm">
+            <div class="tab-container">
+                <h1>About Me</h1>
+            </div>
         </div>
     </div>
+
     <div class="container-fluid">
-        <div class="container-sm mt-5 d-flex flex-column gap-3">
-            <main class="d-flex gap-3 align-items-center">
+        <main class="container-sm mt-5 d-flex flex-column gap-3">
+            <div class="d-flex gap-3 align-items-center">
                 <div class="about-me os-icon">i</div>
-                <div class="terminal os-icon"><></div>
+                <div class="terminal os-icon">L</div>
                 <div class="contact os-icon">CC</div>
-            </main>
-            <main class="d-flex gap-3 align-items-center">
+            </div>
+            <div class="d-flex gap-3 align-items-center">
                 <div class="projects os-icon">Proj</div>
-            </main>
-        </div>
+            </div>
+        </main>
     </div>
     <div class="container-fluid">
         <footer class="position-fixed d-flex justify-content-center align-items-center gap-3">
