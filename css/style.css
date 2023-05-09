@@ -9,15 +9,15 @@
     display: none;
 }
 
-h1 {
+/* h1 {
     font-size: 50pt;
-}
+} */
 
 .container-fluid {
     padding: 0px;
 }
 
-.navbar-color {
+/* .navbar-color {
     background-color: black;
     padding-right: 25%;
     padding-bottom: 1.5%;
@@ -28,4 +28,22 @@ h1 {
 
 .home {
     margin-top: 300px;
+} */
+
+body {
+    background-image: url('../img/bg1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+footer {
+    height: 60px;
+    width: 100%;
+    top: 93%;
+}
+
+.os-icon {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
 }
