@@ -59,3 +59,7 @@ hr {
     width: 250px;
     margin: auto;
 }
+
+.card {
+    text-align: center;
+}
