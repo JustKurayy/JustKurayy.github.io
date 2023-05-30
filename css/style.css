@@ -38,14 +38,36 @@ body {
     text-transform: uppercase;
 }
 
+.lang-prog {
+    width: 80%;
+    height: 0.7rem;
+    background-color: black;
+}
+
+.progression-html {
+    background-color: #aaaaaa;
+    width: 90%;
+}
+
+.progression-css {
+    background-color: #aaaaaa;
+    width: 80%;
+}
+
+.progression-js {
+    background-color: #aaaaaa;
+    width: 75%;
+}
+
 main {
     width: 100%;
 }
 
 article {
-    width: 10vh;
-    height: 15vh;
-    box-shadow: 0 0 10px 0 black;
+    /* width: 33.33%; */
+    height: 20vh;
+    box-shadow: 0 0 5px 0 black;
+    border-radius: 10px;
 }
 
 a {
