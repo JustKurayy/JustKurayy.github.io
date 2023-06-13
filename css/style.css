@@ -12,7 +12,23 @@ body {
 }
 
 .title-names {
-    transition: 0,5;
+    /* transition: 0.5; */
+    animation-play-state: running;
+    animation: 2s ease-in-out infinite fadingText;
+}
+
+@keyframes fadingText {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
 }
 
 .hero {
@@ -71,10 +87,11 @@ main {
 }
 
 article {
-    /* width: 33.33%; */
-    height: 20vh;
+    /* width: 50%; */
+    /* height: 20vh; */
     /* box-shadow: 0 0 5px 0 black; */
     border-radius: 10px;
+    padding-bottom: 15px;
 }
 
 a {
@@ -97,4 +114,8 @@ ul {
 
 .side-ul {
     list-style: none;
+}
+
+.col-sm-4 {
+    width: 30%;
 }
