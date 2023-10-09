@@ -99,6 +99,12 @@ a:hover {
     transition: 0.2s all;
 }
 
+.cover-a:hover {
+    text-underline-offset: 5px;
+    text-decoration: underline solid #000;
+    transition: 0.2s all;
+}
+
 h1 {
     font-size: 4.5rem;
 }
